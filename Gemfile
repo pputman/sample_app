@@ -28,4 +28,7 @@ gem 'sqlite3', '1.3.3'
 # and rake tasks are available in development mode:
  group :test do
    gem 'rspec-rails', '2.6.1'
+   gem 'rspec'
+   gem 'spork', '0.9.0.rc5'
+   gem 'webrat'
  end
